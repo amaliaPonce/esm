@@ -1,15 +1,15 @@
 import Footer from "../../components/Footer/Footer";
 import Navegador from "../../components/Navegador/Navegador";
-import Valla1 from "../../assets/VallaPeatonal.svg";
-import Valla2 from "../../assets/VallaPeatonal2.svg";
-import Valla3 from "../../assets/VallaInclinada.svg";
-import Valla4 from "../../assets/VallaAlta.svg";
-import Valla5 from "../../assets/VallaNewJersey.svg";
-import Valla6 from "../../assets/Cono.svg";
+import Valla1 from "../../assets/VallaPeatonal.webp";
+import Valla2 from "../../assets/VallaPeatonal2.webp";
+import Valla3 from "../../assets/VallaInclinada.webp";
+import Valla4 from "../../assets/VallaAlta.webp";
+import Valla5 from "../../assets/VallaNewJersey.webp";
+import Valla6 from "../../assets/Cono.webp";
 
-import Valla7 from "../../assets/Remolquepodium.svg";
-import Valla8 from "../../assets/PodiumdeSalida.svg";
-import Valla9 from "../../assets/ArcoSalidaMeta.svg";
+import Valla7 from "../../assets/Remolquepodium.webp";
+import Valla8 from "../../assets/PodiumdeSalida.webp";
+import Valla9 from "../../assets/ArcoSalidaMeta.webp";
 
 const CatalogoPage = () => {
   return (
