@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilo del boton */
+.btn-primary {
+  @apply px-8 py-4 m-6 mb-4 text-sm font-medium leading-5 text-center text-white
+ bg-gradient-to-r from-orange-400 to-orange-600
+      rounded-full hover:from-orange-300 hover:to-orange-500
+      lg:mx-0 lg:w-auto focus:outline-none
+      shadow-md lg:text-2xl
+      transform transition-transform hover:scale-105;
+}
+
+/* Estilo del h1 */
+.h1-style {
+  @apply text-3xl my-4 text-center font-bold tracking-wide font-days-one lg:text-left lg:text-5xl;
+}
+
+/* Estilo del h2 */
+.h2-style {
+  @apply text-base my-4 text-center font-bold -tracking-tighter font-roboto lg:text-left lg:text-lg uppercase text-orange-600;
+}
+
+/* Estilo del p */
+.p-style {
+  @apply mt-4 px-4 lg:px-2 text-black text-lg text-center font-roboto lg:text-left lg:text-lg mb-6 leading-relaxed;
+}
+/* Estilo del a del navegador */
+.a-nav-style {
+  @apply text-gray-500 mx-2 lg:mx-4 border-b-2 border-transparent hover:text-gray-800 hover:border-orange-500 font-days-one;
+}
