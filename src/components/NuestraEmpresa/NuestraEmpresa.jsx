@@ -5,7 +5,7 @@ import SemiCirculo from '../../assets/SemiCirculo.svg';
 const NuestraEmpresa = () => {
   return (
     <>
-        <section className=" container flex flex-col justify-center items-center px-6 mt-16 lg:mt-1  py-8 mx-auto relative">
+        <section className=" container flex flex-col justify-center items-center px-6 mt-16 py-8 mx-auto relative">
         <ScrollAnimation animationClasses={['animate-fade-right']}>
 
           <h1 id="Nosotros" className="h1-style text-center mb-4">
